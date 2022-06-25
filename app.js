@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 // app.use(bodyParser.json());
 app.use(express.static("public"));
 
-
+//setup mongo db
 mongoose.connect("mongodb://localhost:27017/wikiDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
